@@ -1,3 +1,5 @@
+Create system services in Go.
+===========================
 golang service package will install / un-install and run a program as a service (daemon).
 Currently supports Windows XP+ and Linux/Upstart.
 
