@@ -1,4 +1,4 @@
-service will install / un-install and run a program as a service (daemon).
+golang service package will install / un-install and run a program as a service (daemon).
 Currently supports Windows XP+ and Linux/Upstart.
 
 To start out follow "example/main.go".
@@ -12,7 +12,7 @@ To start out follow "example/main.go".
 	)
 
 	func main() {
-		var displayName = "Go Service Test2"
+		var displayName = "Go Service Test"
 		var desc = "This is a test Go service.  It is designed to run well."
 		var ws, err = service.NewService("GoServiceTest2", displayName, desc)
 
